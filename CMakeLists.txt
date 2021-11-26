@@ -23,9 +23,10 @@ add_definitions(
 include_directories(
   rai/rai
   /usr/include/eigen3
-  ${BULLET_INCLUDE_DIRS}
+  /usr/include/bullet
+  #${BULLET_INCLUDE_DIRS}
   #$ENV{HOME}/opt/physx3.4/include $ENV{HOME}/opt/physx3.4/include/physx
-  #$ENV{HOME}/opt/include/bullet/
+  #$ENV{HOME}/usr/include/bullet/
   )
 
 link_directories(
