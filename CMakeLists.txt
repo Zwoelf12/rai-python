@@ -75,8 +75,18 @@ add_library(rai SHARED
 target_link_libraries(rai
   jsoncpp lapack blas pthread rt X11
   assimp fcl ann glfw GLEW glut GLU GL png qhull
+  
+  /usr/lib/x86_64-linux-gnu/libBullet3Collision.so
+  /usr/lib/x86_64-linux-gnu/libBullet3Dynamics.so
+  /usr/lib/x86_64-linux-gnu/libBullet3Common.so
+  /usr/lib/x86_64-linux-gnu/libBullet3Geometry.so
+  /usr/lib/x86_64-linux-gnu/libBullet3OpenCL_clew.so
+  /usr/lib/x86_64-linux-gnu/libBulletCollision.so
+  /usr/lib/x86_64-linux-gnu/libBulletDynamics.so
+  /usr/lib/x86_64-linux-gnu/libBulletSoftBody.so
+  
   #${OpenCV_LIBS}
-  ${BULLET_LIBRARIES}
+  #${BULLET_LIBRARIES}
   #PhysX3Extensions PhysX3_x64 PhysX3Cooking_x64 PhysX3Common_x64 PxFoundation_x64
   )
 
