@@ -6,4 +6,5 @@ python bindings for rai framework forked from Marc Toussaint
 
 * [KW 47](./Weeks/KW_47.md)
 * [KW 48](./Weeks/KW_48.md)
+* [KW 49](./Weeks/KW_49.md)
 
