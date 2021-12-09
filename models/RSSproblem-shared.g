@@ -1,4 +1,4 @@
-Include = '../../rai-robotModels/baxter/baxter.g'
+#Include = '../../rai-robotModels/baxter/baxter.g'
 #Include='../../../share/data/drake_kuka/setup.g'
 
 Edit base { X=<T t(0 0 .7)> } # for kuka
